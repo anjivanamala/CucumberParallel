@@ -8,8 +8,8 @@ public class MyStepdefsOne {
     @Given("I login to Google")
     public void iLoginToGoogle() throws InterruptedException {
         System.out.println("Logged into Google");
-        Thread.sleep(5000);
-        System.out.println("I have waited for 5 Seconds");
+        Thread.sleep(2000);
+        System.out.println("I have waited for 2 Seconds");
     }
 
     @When("I Search for Manasvini")
